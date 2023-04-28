@@ -1,0 +1,13 @@
+
+.navbar.transparency {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease-in-out;
+  }
+  
+  .navbar.transparency.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  }
+
+
+
