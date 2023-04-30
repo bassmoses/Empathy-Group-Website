@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-4---Full-Video-Background-v2.css">
     <link rel="stylesheet" href="assets/css/DA_About.css">
     <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-1.css">
     <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-2.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us.css">
-
-    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
-    <link rel="stylesheet" href="assets/css/Background-Image---Parallax---No-Text.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700">
+    <link rel="stylesheet" href="assets/css/Button-Change-Text-on-Hover.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
@@ -116,19 +111,49 @@
                             areas and for foundations where high vertical loads are applied. Empathy Group 
                             Limited also uses bore piles and continuous auger bored piles for construction 
                             in foundations, especially for bridges and tall buildings.</p>
-                <div style="text-align: center;"><button class="btn btn-light btn-lg" id= "read-more-btn" id="see-more-button" type="button" style="margin-bottom: 21px;" onclick="toggleAboutText();" onclick="toggleAboutButton()">Read More</button></div>
+                <div style="text-align: center;">
+                <button class="button" type="button" data-hover="SURE!" id= "myButton"  type="button" style="margin-bottom: 25px; border-color: green; color: green;" onclick="toggleAboutText();" onclick="toggleAboutButton()">
+                    <span>WANNA SEE MORE?</span>
+                </button>
+                <!-- <button class="btn btn-light btn-lg" id= "myButton"  type="button" style="margin-bottom: 21px;" onclick="toggleAboutText();" onclick="toggleAboutButton()"; onclick="hideButton()">Read More</button> -->
+            </div>
 
                     <script>
-                        function toggleAboutText() {
-                            var aboutText = document.getElementById("about-text");
-                                if (aboutText.style.display === "none") {
-                                     aboutText.style.display = "block";
-                                    
-                                 } else {
-                                        aboutText.style.display = "none";
-                                         
-                                             }
-                                    }
+
+// Define a function called toggleAboutText
+function toggleAboutText() {
+    // Get the element with the ID of "about-text" and store it in a variable called aboutText
+    var aboutText = document.getElementById("about-text");
+
+    // If the display style of the aboutText element is "none"
+    if (aboutText.style.display === "none") {
+        // Set the display style of the aboutText element to "block"
+        aboutText.style.display = "block";
+        // Store the text content of the aboutText element in a variable called text
+        var text = aboutText.textContent;
+        // Set the text content of the aboutText element to an empty string
+        aboutText.textContent = "";
+        // Initialize a variable called i to 0
+        var i = 0;
+        // Set an interval to run every 50 milliseconds
+        var intervalId = setInterval(function() {
+            // If i is less than the length of the text variable
+            if (i < text.length) {
+                // Add the character at index i of the text variable to the text content of the aboutText element
+                aboutText.textContent += text.charAt(i);
+                // Increment i by 1
+                i++;
+            } else {
+                // If i is not less than the length of the text variable, clear the interval
+                clearInterval(intervalId);
+            }
+        }, 10);
+    } else {
+        // If the display style of the aboutText element is not "none", set it to "none"
+        aboutText.style.display = "none";
+    }
+}
+
 
                     </script>
                 </div>

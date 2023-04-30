@@ -8,16 +8,14 @@
     <link rel="stylesheet" href="assets/css/-Fixed-Navbar-start-with-transparency-background-BS4--transparency-menu.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-4---Full-Video-Background-v2.css">
     <link rel="stylesheet" href="assets/css/DA_About.css">
-    <link rel="stylesheet" href="assets/css/ml-video-1.css">
-    <link rel="stylesheet" href="assets/css/ml-video.css">
     <link rel="stylesheet" href="assets/css/Navbar---Apple.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
     <link rel="stylesheet" href="assets/css/Video-Responsive-YouTube-Video-Responsive.css">
     <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-1.css">
     <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-2.css">
     <link rel="stylesheet" href="assets/css/WOWSlider-about-us.css">
-    <link rel="stylesheet" href="assets/css/Youtube-Video-Lazyload.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/Clean-Button-Scale-Hover-Effect.css">
 </head>
 
 <body>
@@ -44,6 +42,11 @@
                             <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="sectors.php">Sectors</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                            <!-- <button class="nav-item" class="btn btn-danger" style="border: none;width: 120px;height: 40px;margin-left: 14px;background-color: #4ddb94;color: #4CAF50;margin-top: 0px;" type="button"><a class="nav-link" href="contact.php">Contact Us</a></button> -->
+                            <button class="btn btn-primary" type="button" style="border-radius: 48px;margin-left: 14px;margin-bottom: 10px;font-size: 20px;background: #4CAF50;font-weight: bold;width: 120px;height: 40px; display: flex;align-items: center;justify-content: center;border-width: 0px;"><a class="nav-link" href="login.php">Login</a></button>
+                            <button class="btn btn-primary" type="button" style="border-radius: 48px;margin-left: 14px;margin-bottom: 10px;font-size: 20px;background: #4CAF50;font-weight: bold;width: 120px;height: 40px;display: flex;align-items: center;justify-content: center;border-width: 0px;"><a class="nav-link" href="signup.php">Sign up</a></button>
+
+
 
                         </ul>
                     </div>

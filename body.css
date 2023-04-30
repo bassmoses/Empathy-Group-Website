@@ -1,3 +1,14 @@
+/* body {
+    background: linear-gradient(135deg, #d3d3d3 0%, #a9a9a9 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+  } */
+
+
+  /* Generate epic background css with a custom blurry image */
 body {
     background: linear-gradient(135deg, #d3d3d3 0%, #a9a9a9 100%);
     background-size: cover;
@@ -5,7 +16,7 @@ body {
     background-attachment: fixed;
     max-width: 100%;
     height: auto;
-  }
-
-
-  
+    /* Add custom blurry image */
+    background-image: url('path/to/image.jpg');
+    filter: blur(10px);
+}

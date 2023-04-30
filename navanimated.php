@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/-Fixed-Navbar-start-with-transparency-background-BS4--transparency-menu.css">
     <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/Clean-Button-Scale-Hover-Effect.css">
 </head>
 
 <body>
@@ -34,12 +35,13 @@
                             <img src="images/me.png" alt="Logo" width="100" height="50"></a><a class="navbar-brand text-success" href="index.php">&nbsp;EMPHATY COMPANY LTD</a><button data-bs-toggle="collapse" class="navbar-toggler collapsed" data-bs-target="#navcol-1"><span></span><span></span><span></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="sectors.php" role="button" id="sectorsDropdown">Sectors</a></li>
-
-
-                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="sectors.php" role="button" id="sectorsDropdown">Sectors</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                            <!-- <button class="nav-item" class="btn btn-danger" style="border: none;width: 120px;height: 40px;margin-left: 14px;background-color: #4ddb94;color: #4CAF50;margin-top: 0px;" type="button"><a class="nav-link" href="contact.php">Contact Us</a></button> -->
+                            <button class="btn btn-primary" type="button" style="border-radius: 48px;margin-left: 14px;margin-bottom: 10px;font-size: 20px;background: #4CAF50;font-weight: bold;width: 120px;height: 40px; display: flex;align-items: center;justify-content: center;border-width: 0px;"><a class="nav-link" href="login.php">Login</a></button>
+                            <button class="btn btn-primary" type="button" style="border-radius: 48px;margin-left: 14px;margin-bottom: 10px;font-size: 20px;background: #4CAF50;font-weight: bold;width: 120px;height: 40px;display: flex;align-items: center;justify-content: center;border-width: 0px;"><a class="nav-link" href="signup.php">Sign up</a></button>
 
                             </li>
                         </ul>
