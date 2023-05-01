@@ -1,0 +1,11 @@
+Note: This code is just an example and not a complete implementation of a secure sign up form.
+ Additional security measures like input validation, email verification, and password strength 
+ requirements should also be implemented.
+
+
+
+THIS ONE IS FOR EMAIL verification
+
+ Note that this is just an example and you may need to modify the code to fit your specific needs. 
+ Additionally, you may want to add additional security measures, such as using SSL/TLS for email 
+ communication and using a time-limited verification code to prevent replay attacks.
